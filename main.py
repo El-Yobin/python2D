@@ -3,8 +3,7 @@ from app.scene import Scene
 from instances import set_display
 
 pygame.init()
-size = width, height = 800, 600
-set_display(pygame.display.set_mode(size))
+set_display(pygame.display.set_mode((800, 600)))
 scene = Scene()
 
 
